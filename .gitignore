@@ -1,19 +1,30 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
-build/
+*.so
 
-# VS Code
-.vscode/
-
-# Env-Dateien
+# Virtual environments
 .env
-.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Poetry
+# Python poetry
 poetry.lock
 
-# macOS
+# Editor & system files
+.vscode/
+.idea/
 .DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# LiteLLM config
+config.yaml
