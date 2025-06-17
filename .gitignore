@@ -1,8 +1,19 @@
+# Python
 __pycache__/
 *.py[cod]
-.venv/
-.env
-config.yaml
+*.egg-info/
+dist/
+build/
+
+# VS Code
 .vscode/
-.DS_Store
+
+# Env-Dateien
+.env
+.env.*
+
+# Poetry
 poetry.lock
+
+# macOS
+.DS_Store
