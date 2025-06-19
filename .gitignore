@@ -28,3 +28,4 @@ poetry.lock
 
 # LiteLLM config
 config.yaml
+secrets/emzon-suite-f3b5d78cbd35.json
